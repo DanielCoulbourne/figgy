@@ -56,6 +56,10 @@ impl<'a, T: Serialize + Deserialize<'a> + Debug + Clone> ConfigFile<T> {
         }
 
         if !self.directories.is_empty() && dir == *"" {
+            if !self.create_if_missing {
+                return Err(Error::new(ErrorKind::NotFound, "File was not found"));
+            }
+
             dir = self.directories[0].to_string();
         }
 
