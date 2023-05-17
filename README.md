@@ -8,7 +8,7 @@ _~/.myapp/myapp.config.json_
 ```json
 {
     "api_key": "1234abcdef!@#$%",
-    "api_version" 3
+    "api_version": 3
 }
 ```
 

@@ -1,6 +1,6 @@
 [package]
 name = "figgy"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Daniel Coulbourne <daniel@coulb.com>"]
 description = "A small library for managing config files which supports heirarchical directories, defaults, and writing initial files"
