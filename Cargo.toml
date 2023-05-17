@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Daniel Coulbourne <daniel@coulb.com>"]
 description = "A small library for managing config files which supports heirarchical directories, defaults, and writing initial files"
+license = "MIT"
+repository = "https://github.com/DanielCoulbourne/figgy"
 
 [badges]
 maintenance = { status = "experimental" }
