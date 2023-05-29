@@ -14,6 +14,7 @@ _~/.myapp/myapp.config.json_
 
 Your Rust program:
 ```rust
+    use figgy::ConfigFile;
     use serde::{Deserialize, Serialize};
 
     #[derive(Serialize, Deserialize)]
