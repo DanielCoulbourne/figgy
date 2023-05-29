@@ -33,7 +33,7 @@ If you want a default configuration, you can set one with `.default()`.
 If you want to automatically write a config file if none is detected, use `.create_file_if_not_found()`
 
 ```rust
-let config = ConfigFile::<PersonConfig>::new("myapp.config.json")))
+let config = ConfigFile::<ApiKeysConfig>::new("myapp.config.json")))
             .directory("~/.config/myapp/")
             .directory("~/.myapp/")
             .create_file_if_not_found()
